@@ -1,12 +1,12 @@
 # function definition
-def fun(p, t, r):
-    return (p * t * r) / 100
+def fun(a, b, c):
+    return (a * b * c) / 100
 
-# given values for principal (p), time (t) in years and rate of interest (r) per annum
-p, t, r = 8, 6, 8
+
+a, b, c = 8, 6, 8
 
 # function calling 
-res = fun(p, t, r)
+res = fun(a, b, c)
 
 print(res)
 
